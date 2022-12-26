@@ -129,9 +129,9 @@
     default_layer {
       bindings = <
         &hm PRCNT FSLH  &kp V  &kp W       &kp M       &kp J         &kp Z      &kp F       &kp U        &kp X           &kp Q
-        &hm TAB A       &kp S  &hm LALT R  &hm LGUI T  &kp G         &kp P      &hm RGUI N  &hm RALT E   &kp O           &kp I
+        &mt LSHIFT A    &kp S  &hm LALT R  &hm LGUI T  &kp G         &kp P      &hm RGUI N  &hm RALT E   &kp O           &kp I
         &hm COLON DOT   &kp C  &kp L       &kp D       &kp K         &kp B      &dw         &hm DQT SQT  &hm SEMI COMMA  &kp Y
-                                          &sk LSHIFT  &hl SYM SYM   &kp SPACE  &kp RCTRL
+                                           &sk LSHIFT  &hl SYM SYM   &kp SPACE  &kp RCTRL
       >;
     };
 
@@ -155,9 +155,9 @@
 
     symbol_layer {
       bindings = <
-        &kp EQUAL  &kp MINUS  &kp LBRC       &kp RBRC       &kp GRAVE    &kp AMPS     &kp N4       &kp N5       &kp N6  &kp BSPC
-        &kp TAB    &kp SQT    &hm LALT LPAR  &hm LGUI RPAR  &kp FSLH     &kp N0       &hm RGUI N1  &hm RALT N2  &kp N3  &kp ENTER
-        &kp TILDE  &kp BSLH   &kp LBKT       &kp RBKT       &kp UNDER    &kp AT       &kp N7       &kp N8       &kp N9  &kp DOT
+        &kp BSLH   &kp MINUS  &kp LBRC       &kp RBRC       &kp GRAVE    &kp AMPS     &kp N4       &kp N5       &kp N6  &kp BSPC
+        &kp TAB    &kp SQT    &hm LALT LPAR  &hm LGUI RPAR  &kp QMARK    &kp N0       &hm RGUI N1  &hm RALT N2  &kp N3  &kp ENTER
+        &kp TILDE  &kp EQUAL  &kp LBKT       &kp RBKT       &kp UNDER    &kp AT       &kp N7       &kp N8       &kp N9  &kp DOT
                                              &trans         &tog NAV     &lm DEF SYM  &trans 
       >;
     };
@@ -165,8 +165,8 @@
     navigation_layer {
       bindings = <
         &kp ESC  &mwh SCROLL_LEFT  &mmv MOVE_UP      &mwh SCROLL_RIGHT  &none          &none        &kp C_VOL_DN  &kp C_VOL_UP  &none      &kp C_PP
-        &none    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &none          &kp LEFT     &kp DOWN      &kp UP        &kp RIGHT  &kp C_PREV 
-        &none    &mkp MCLK         &mwh SCROLL_DOWN  &mwh SCROLL_UP     &mkp RCLK      &mkp LCLK    &kp C_BRI_DN  &kp C_BRI_UP  &none      &kp C_NEXT
+        &none    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mkp LCLK      &kp LEFT     &kp DOWN      &kp UP        &kp RIGHT  &kp C_PREV 
+        &none    &mkp MCLK         &mwh SCROLL_DOWN  &mwh SCROLL_UP     &mkp RCLK      &none        &kp C_BRI_DN  &kp C_BRI_UP  &none      &kp C_NEXT
                                                      &trans             &trans         &lm DEF NAV  &trans
       >;
     };
