@@ -155,37 +155,37 @@
 
     symbol_layer {
       bindings = <
-        &kp BSLH   &kp MINUS  &kp LBRC       &kp RBRC       &kp GRAVE    &kp AMPS     &kp N4       &kp N5       &kp N6  &kp BSPC
-        &kp TAB    &kp SQT    &hm LALT LPAR  &hm LGUI RPAR  &kp QMARK    &kp N0       &hm RGUI N1  &hm RALT N2  &kp N3  &kp ENTER
-        &kp TILDE  &kp EQUAL  &kp LBKT       &kp RBKT       &kp UNDER    &kp AT       &kp N7       &kp N8       &kp N9  &kp DOT
-                                             &trans         &tog NAV     &lm DEF SYM  &trans 
+        &kp BSLH   &kp MINUS  &kp LBRC       &kp RBRC       &kp GRAVE    &kp AMPS  &kp N4       &kp N5       &kp N6  &kp BSPC
+        &kp TAB    &kp SQT    &hm LALT LPAR  &hm LGUI RPAR  &kp QMARK    &kp N0    &hm RGUI N1  &hm RALT N2  &kp N3  &kp ENTER
+        &kp TILDE  &kp EQUAL  &kp LBKT       &kp RBKT       &kp UNDER    &kp AT    &kp N7       &kp N8       &kp N9  &kp DOT
+                                             &trans         &tog NAV     &to DEF   &trans 
       >;
     };
 
     navigation_layer {
       bindings = <
-        &kp ESC  &mwh SCROLL_LEFT  &mmv MOVE_UP      &mwh SCROLL_RIGHT  &none          &none        &kp C_VOL_DN  &kp C_VOL_UP  &none      &kp C_PP
-        &none    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mkp LCLK      &kp LEFT     &kp DOWN      &kp UP        &kp RIGHT  &kp C_PREV 
-        &none    &mkp MCLK         &mwh SCROLL_DOWN  &mwh SCROLL_UP     &mkp RCLK      &none        &kp C_BRI_DN  &kp C_BRI_UP  &none      &kp C_NEXT
-                                                     &trans             &trans         &lm DEF NAV  &trans
+        &kp ESC  &mwh SCROLL_LEFT  &mmv MOVE_UP      &mwh SCROLL_RIGHT  &none         &none     &kp C_VOL_DN  &kp C_VOL_UP  &none      &kp C_PP
+        &none    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mkp LCLK     &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT  &kp C_PREV 
+        &none    &mkp MCLK         &mwh SCROLL_DOWN  &mwh SCROLL_UP     &mkp RCLK     &none     &kp C_BRI_DN  &kp C_BRI_UP  &none      &kp C_NEXT
+                                                     &trans             &trans        &trans    &trans
       >;
     };
 
     control_layer {
       bindings = <
-        &none         &none         &none         &none         &none           &none        &none        &none  &none  &none  
-        &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &none        &none        &none  &none  &none  
-        &bt BT_CLR    &none         &none         &bootloader   &reset          &reset       &bootloader  &none  &none  &none  
-                                                  &none         &none           &lm DEF CON  &none
+        &none         &none         &none         &none         &none           &none    &none        &none  &none  &none  
+        &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &none    &none        &none  &none  &none  
+        &bt BT_CLR    &none         &none         &bootloader   &reset          &reset   &bootloader  &none  &none  &none  
+                                                  &none         &none           &to DEF  &none
       >;
     };
 
     fn_layer {
       bindings = <
-        &none       &none      &none        &none        &none     &none        &kp F10      &kp F11      &none   &none  
-        &kp F12     &kp F9     &hm LALT F7  &hm LGUI F5  &kp F8    &kp F4       &hm RGUI F1  &hm RALT F2  &kp F3  &kp F6  
-        &kp LSHIFT  &kp LCTRL  &none        &none        &none     &none        &none        &none        &none   &none  
-                                            &trans       &none     &lm DEF FN   &trans
+        &none       &none      &none        &none        &none     &none    &kp F10      &kp F11      &none   &none  
+        &kp F12     &kp F9     &hm LALT F7  &hm LGUI F5  &kp F8    &kp F4   &hm RGUI F1  &hm RALT F2  &kp F3  &kp F6  
+        &kp LSHIFT  &kp LCTRL  &none        &none        &none     &none    &none        &none        &none   &none  
+                                            &trans       &none     &to DEF  &trans
       >;
     };
    
