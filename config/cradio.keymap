@@ -137,10 +137,10 @@
 
     alternative_layer {
       bindings = <
-        &kp Q         &kp D        &kp R       &kp W       &kp B          &kp J      &kp F       &kp U       &kp P          &kp SEMI
-        &kp A         &kp S        &hm LALT H  &hm LGUI T  &kp G          &kp Y      &hm RGUI N  &hm RALT E  &kp O          &kp I
-        &mt LSHIFT Z  &mt LCTRL X  &kp M       &kp C       &kp V          &kp K      &kp L       &kp COMMA   &mt RCTRL DOT  &kp SQT
-                                               &trans      &hl SYM SYM    &kp SPACE  &kp RCTRL
+        &kp Z  &kp X  &kp M       &kp Q       &kp B         &kp Y      &kp F       &kp O        &kp U     &hm COLON DOT
+        &kp S  &kp R  &hm LALT H  &hm LGUI T  &kp G         &kp P      &hm RGUI C  &hm RALT A   &kp E     &kp I
+        &kp V  &kp L  &kp N       &kp D       &kp K         &kp J      &kp W       &hm DQT SQT  &kp FSLH  &hm SEMI COMMA
+                                  &trans      &hl SYM SYM   &kp SPACE  &kp RCTRL
       >;
     };
 
