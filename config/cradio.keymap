@@ -81,6 +81,13 @@
       layers = <DEF QWE ALT>;
     };
 
+    home_layer_jump {
+      timeout-ms = <350>;
+      key-positions = <31 32>;
+      bindings = <&to DEF>;
+      layers = <DEF QWE ALT SYM NAV CON FN>;
+    }
+
   };
 
   behaviors {
@@ -111,7 +118,7 @@
       tapping-term-ms = <250>;
       quick-tap-ms = <0>;
       flavor = "tap-preferred";
-      bindings = <&mo>, <&to>;
+      bindings = <&mo>, <&tog>;
     };
 
     dw: tapdance_delete {
