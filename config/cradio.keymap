@@ -128,18 +128,18 @@
 
     default_layer {
       bindings = <
-        &hm GRAVE FSLH  &kp V  &kp W       &kp M       &kp J         &kp Z             &kp F       &kp U        &kp X           &kp Q
-        &kp A           &kp S  &hm LALT R  &hm LGUI T  &kp G         &kp P             &hm RGUI N  &hm RALT E   &kp O           &kp I
-        &hm COLON DOT   &kp C  &kp L       &kp D       &kp K         &kp B             &kp H       &hm DQT SQT  &hm SEMI COMMA  &kp Y
-                                           &sk LSHIFT  &hl SYM SYM   &mt RSHIFT SPACE  &kp RCTRL
+        &hm DQT SQT  &kp X  &kp COMMA   &kp B       &kp Q         &kp DOT           &kp F       &kp M       &hm GRAVE COMMA  &kp Z
+        &kp I        &kp R  &hm LALT A  &hm LGUI T  &kp G         &kp P             &hm RGUI C  &hm RALT N  &kp E            &kp S
+        &hm COLON Y  &kp L  &kp O       &kp D       &kp K         &kp J             &kp W       &kp H       &kp U            &kp V
+                                        &sk LSHIFT  &hl SYM SYM   &mt RSHIFT SPACE  &kp RCTRL
       >;
     };
 
     alternative_layer {
       bindings = <
-        &kp Z  &kp X  &kp M       &kp Q       &kp B         &kp Y      &kp F       &kp O        &kp U     &hm COLON DOT
-        &kp S  &kp R  &hm LALT H  &hm LGUI T  &kp G         &kp P      &hm RGUI C  &hm RALT A   &kp E     &kp I
-        &kp V  &kp L  &kp N       &kp D       &kp K         &kp J      &kp W       &hm DQT SQT  &kp FSLH  &hm SEMI COMMA
+        &kp Z  &kp X  &kp M       &kp B       &kp Q         &kp DOT    &kp F       &kp O           &kp U           &kp Y
+        &kp S  &kp R  &hm LALT N  &hm LGUI T  &kp G         &kp P      &hm RGUI C  &hm RALT A      &kp E           &kp I
+        &kp V  &kp L  &kp H       &kp D       &kp K         &kp J      &kp W       &hm SEMI COMMA  &hm GRAVE FSLH  &hm DQT SQT
                                   &trans      &hl SYM SYM   &kp SPACE  &kp RCTRL
       >;
     };
