@@ -128,10 +128,10 @@
 
     default_layer {
       bindings = <
-        &hm GRAVE FSLH  &kp V  &kp W       &kp M       &kp J         &kp Z      &kp F       &kp U        &kp X           &kp Q
-        &mt LSHIFT A    &kp S  &hm LALT R  &hm LGUI T  &kp G         &kp P      &hm RGUI N  &hm RALT E   &kp O           &kp I
-        &hm COLON DOT   &kp C  &kp L       &kp D       &kp K         &kp B      &dw         &hm DQT SQT  &hm SEMI COMMA  &kp Y
-                                           &sk LSHIFT  &hl SYM SYM   &kp SPACE  &kp RCTRL
+        &hm GRAVE FSLH  &kp V  &kp W       &kp M       &kp J         &kp Z             &kp F       &kp U        &kp X           &kp Q
+        &kp A           &kp S  &hm LALT R  &hm LGUI T  &kp G         &kp P             &hm RGUI N  &hm RALT E   &kp O           &kp I
+        &hm COLON DOT   &kp C  &kp L       &kp D       &kp K         &kp B             &kp H       &hm DQT SQT  &hm SEMI COMMA  &kp Y
+                                           &sk LSHIFT  &hl SYM SYM   &mt RSHIFT SPACE  &kp RCTRL
       >;
     };
 
