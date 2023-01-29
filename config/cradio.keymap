@@ -86,7 +86,7 @@
       key-positions = <31 32>;
       bindings = <&to DEF>;
       layers = <DEF QWE ALT SYM NAV CON FN>;
-    }
+    };
 
   };
 
